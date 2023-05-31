@@ -1,5 +1,5 @@
-const { Router } = require('express');
-const { PythonShell } = require('python-shell');
+import { Router } from 'express';
+import { PythonShell } from 'python-shell';
 const router = Router();
 
 const options ={
@@ -27,4 +27,4 @@ router.post('/send-email', async (req, res) => {
 
 });
 
-module.exports = router;
+export default router;
