@@ -4,10 +4,10 @@ import smtplib
 import sys
 
 def sendEmail(asunto,cuerpo):
-    emailEmisor = "jorejuela521@gmail.com"
-    passEmisor = "eykmmtcmpvggtnfy"
+    emailEmisor = "xxxxxxxxxxxxxxxxxx"
+    passEmisor = "33333333"
 
-    emailReceptor = "juanorejuela499@gmail.com"
+    emailReceptor = "xxxxxxxxxxxxxxx"
 
     em = EmailMessage()
 
